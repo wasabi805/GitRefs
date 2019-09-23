@@ -46,7 +46,7 @@ const FooterPresenter = props => {
           <div className={"col three"}>
             <h4 className={"footer-section-title white "}>SUBSCRIBE</h4>
             <p className={'subscribe white'}>Stay updated on TRD and Toyota Racing info</p>
-            <a className={'footer-subscribe-button'} href="">Subscribe</a>
+            {/*<a className={'footer-subscribe-button'} href="">Subscribe</a>*/}
           </div>
         </div>
       </section>

@@ -17,7 +17,7 @@ const App = () => {
       <NavBar />
       <Hero />
       <Body/>
-      {/*<Footer/>*/}
+      <Footer/>
 
     </Provider>
   );

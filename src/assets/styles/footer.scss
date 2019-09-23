@@ -42,9 +42,13 @@
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-color: rgba(255, 245, 253, 0.125);
-  font-size: 1.6rem;
   color: #87899f;
   font-weight: 400;
+
+  @media screen and(min-width: 600px){
+    font-size: 1.6rem;
+  }
+
 }
 
 .footer-nav {

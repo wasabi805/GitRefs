@@ -11,9 +11,10 @@
 
 .card {
   border: 1px solid red;
-  display: inline-block;
-  //object-fit: contain;
-  width: 30%;
+  @media screen and(min-width: 374px) {
+    display: inline-block;
+    width: 30%;
+  }
   margin: 0 5px;
 
   .context {
