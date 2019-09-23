@@ -1,14 +1,15 @@
 import React from "react";
+import devHeroBg from "../../assets/images/web-1935737_1920.jpg"
 
 const HeroPresenter = () => {
   return (
     <section id={"hero"}>
-      <h1 className={"title"}>WELCOME</h1>
+      <h1 className={"title"}>EXPLORE Git Refs</h1>
 
       <div className={"hero-bg"}>
         <img
           src={
-            "https://timocampobucketstuff.s3.amazonaws.com/cars-sports-tuning-toyota-supra-1920x1080-61716-web.jpg"
+              devHeroBg
           }
           alt={""}
         />

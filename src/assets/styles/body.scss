@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.one {
+  width: 100%;
+  max-width: 80vw;
+  margin: auto;
+}
+
+.card {
+  border: 1px solid red;
+  display: inline-block;
+  //object-fit: contain;
+  width: 30%;
+  margin: 0 5px;
+
+  .context {
+    border: 1px solid blue;
+    img {
+      width: 100%;
+    }
+  }
+}
