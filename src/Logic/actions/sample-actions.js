@@ -6,3 +6,12 @@ export const timSampleAction = () => {
     payload: "This my stuff : Gets added to ...state"
   };
 };
+
+export const selectGitChapter = chapter => {
+  return {
+    type: "SELECT_GIT_CHAPTER",
+    payload: {
+      chapter: chapter
+    }
+  };
+};

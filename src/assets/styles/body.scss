@@ -11,10 +11,25 @@
 
 .card {
   border: 1px solid red;
+
+
   @media screen and(min-width: 374px) {
     display: inline-block;
     width: 30%;
   }
+
+  transition: all .2s ease-in-out;
+  &:hover{
+    transform: scale(1.1);
+  }
+
+  &:hover ~ div {
+    background: lime;
+    margin: 2rem;
+  }
+
+
+
   margin: 0 5px;
 
   .context {
